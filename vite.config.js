@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"/PreEntrega2_Rios",
+  base:"https://IanRios22.github.io/PreEntrega2_Rios",
 });

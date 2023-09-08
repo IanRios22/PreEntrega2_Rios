@@ -37,7 +37,6 @@ const ItemCount = ({ stock, inicial, onAdd }) => {
           onClick={() => {
             if (stock) {
               onAdd(cantidad);
-              window.alert("Producto agregado al carrito");
             }
           }}
           disabled={!stock}
